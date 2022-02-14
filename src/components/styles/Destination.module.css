@@ -1,0 +1,59 @@
+.container {
+  background-image: url(../../assets/destination/background-destination-desktop.jpg);
+  height: 100vh;
+  color: white;
+}
+
+.wrapper {
+  display: block;
+  position: relative;
+  top: 100px;
+  margin-left: 100px;
+}
+.head {
+  font-weight: 10;
+  padding-bottom: 30px;
+}
+.flex {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.img {
+  width: 250px;
+  height: 250px;
+}
+.btn {
+  border: none;
+  cursor: pointer;
+  padding-right: 1rem;
+}
+.btn:hover {
+  border-bottom: 2px solid black;
+}
+.destiny {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 50%;
+}
+.sectionbtn {
+  padding-bottom: 1rem;
+}
+.name {
+  padding-bottom: 1rem;
+  font-size: 80px;
+  font-weight: 400;
+}
+.description {
+  padding-bottom: 1rem;
+}
+.contain {
+  display: flex;
+  justify-content: flex-start;
+  text-align: center;
+}
+.item {
+  padding-right: 20px;
+}

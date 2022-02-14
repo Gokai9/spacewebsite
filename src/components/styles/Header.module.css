@@ -1,0 +1,24 @@
+.fix {
+  position: relative;
+}
+.container {
+  position: absolute;
+  display: flex;
+  align-items: center;
+}
+
+.items {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 1rem;
+  right: 0px;
+  position: relative;
+}
+
+.item {
+  list-style: none;
+  color: #ffffff;
+  padding-left: 1rem;
+}

@@ -1,0 +1,27 @@
+.container {
+  background-image: url(../../assets/home/background-home-desktop.jpg);
+  height: 100vh;
+}
+
+.home {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: relative;
+  top: 200px;
+}
+.box {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 250px;
+  color: white;
+}
+
+.circle {
+  border-radius: 50%;
+  background-color: white;
+  height: 200px;
+  width: 200px;
+  font-size: large;
+}
